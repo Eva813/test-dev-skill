@@ -1,6 +1,7 @@
 ---
 name: axure-spec-scraper
 description: 使用 Playwright MCP 工具自動從 Axure 設計稿（axshare.com）擷取並整理 spec 內容成 Markdown。**務必在以下情況觸發此 skill**：使用者說「幫我抓 spec」、「把設計稿整理成文件」、「從 Axure 擷取規格」、「幫我解讀這個設計稿」、「輸出 pm_spec.md」、「抓 Axure」，或直接貼上 axshare.com / Axure 設計稿連結（即使使用者沒有明確說「使用 skill」）。這是整合設計規格的關鍵第一步。
+license: Apache-2.0
 ---
 
 # Axure Spec Scraper
