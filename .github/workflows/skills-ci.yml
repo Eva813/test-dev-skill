@@ -24,4 +24,4 @@ jobs:
 
       - name: Validate all Skills
         run: |
-          uvx skillscheck ./skills
+          uvx skillscheck@0.9.7 ./skills
