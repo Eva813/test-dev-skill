@@ -1,0 +1,26 @@
+{
+  "skill_name": "axure-spec-scraper",
+  "evals": [
+    {
+      "id": 1,
+      "name": "basic-axure-spec-extraction",
+      "prompt": "幫我從這個 Axure 設計稿抓 spec 並整理成 Markdown：https://mtj57r.axshare.com/?id=7f55zb",
+      "expected_output": "產出 pm_spec.md 檔案，包含完整的頁面規格、區塊說明、表格等，格式清晰易讀",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "axure-spec-with-explicit-request",
+      "prompt": "我需要從設計稿中提取規格。這是我的 Axure 連結：https://mtj57r.axshare.com/?id=7f55zb 請把內容整理成 pm_spec.md，包括異動說明、項目總覽表和各區塊詳細說明",
+      "expected_output": "產出 pm_spec.md 檔案，包含重要異動、改版項目總覽表、各區塊詳細說明等完整結構",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "axure-spec-casual-language",
+      "prompt": "幫我看看這個 Axure 的設計稿內容，然後整理成 markdown：https://mtj57r.axshare.com/?id=7f55zb。我需要一個可以給 PM 看的規格文件",
+      "expected_output": "產出 pm_spec.md 檔案，內容完整、結構清晰，適合 PM 和工程師共同 review",
+      "files": []
+    }
+  ]
+}
